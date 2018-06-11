@@ -20,7 +20,7 @@ If failes to authenticate it will ask you for your 'username' and 'password'.
 1. Execute the script (command line)
 
 - ```python app.py --user=PubNubAccountEmailAddress --password='ThisIsMyPassword'```
-- ```python app.py'```
+- ```python app.py```
 > using your login credentials is needed if your 'token' is expired.
 
 Executing the script will trigger the followings
