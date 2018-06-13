@@ -1,7 +1,21 @@
 # pubnub-monitoring-functions
 Real-time monitoring for PubNub functions
 
-> The script will gather information on your account and use it to generate groups of channels/keys that later we'll subscribe to.
+## The problem we're solving here
+Currently there's no (known and easy) way to monitor our Functions (BLOCKS)
+The 'tools' that PubNub provides (publicly) are the console interface in the portal.
+- the screen is too small
+- we can see only one console for one event-handler (no consolidation)
+- there's no way to integrate the 'alert' with 3rd-party tools (Slack, FlowDoc, Emails, Loggly, Etc...)
+
+## The solution
+One-Script-To-Rule-Them-All :)
+- consolidating ALL of the event-handlers (Apps, Blocks, Functions, Event-handlers) into one location (monitor)
+- being able to store all of the events/aert/notifications to a log file
+- integrate with external tools and 3rd-party services (Slack, FlowDoc, Emails, Loggly, S3, Etc...)
+
+
+> In short: Once logged-in, the script will gather information on your account and use it to generate groups of channels/keys that later it'll subscribe to.
 
 ## Requirements
 - python 3
